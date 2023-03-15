@@ -1,7 +1,7 @@
 import React from 'react';
 // import {Link } from 'react-router-dom';
 import '../css/home.css';
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
 import Project from './Project';
 import Contact from './Contact'
 import Skill from './Skill';
@@ -11,15 +11,15 @@ const Home = () => {
     <section className='d-flex m-0 mt-0  flex-column'>
       <div className=' sec1 bg flex-column align-items-left justify-content-start'>
         <h1 className='heroName text-start m-5 p-5 mb-0 mt-3 justify-content-left  '>
-          Hey! I'm Shreyo,
-          <Typical
+          Hey! I'm Shreyo
+          {/* <Typical
             loop={Infinity}
 
             steps={[
               "Web Developer", 1500,
               "Web Designer", 1500,
               "Programmer", 1500
-            ]} />
+            ]} /> */}
         </h1>
 
         <h5 className="text-start justify-content-left mx-5 px-5 intro" >
