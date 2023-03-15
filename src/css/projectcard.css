@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700;800&family=Roboto:wght@300&display=swap');
+.img{
+    height: 10rem;
+}
+.carditem{
+    height: 185px;
+    background-color: #2b2b2b !important;
+    color:#606266 !important;
+    border: #606266 1px solid !important;
+    transition: 0.3s !important;
+    overflow-y: hidden !important;
+}
+
+.carditem:hover{
+    /* height: 240px; */
+    background-color: #474747 !important;
+    scale: 1.05 !important;
+    color: white !important;
+    overflow-y: visible !important;
+
+}
+.cardtext{
+    justify-content: center;
+    position: absolute;
+    position: relative;
+    /* visibility: hidden; */
+    /* background-color: #474747; */
+    /* padding: 2%; */
+    /* margin: 0; */
+    transition: 0.2s !important;
+    /* top:0; */
+
+}
+.carditem:hover .cardtext{
+    top:-60% !important;
+    background-color: #474747 !important;
+    width: 100% !important;
+}
+.info{
+    font-size: 14px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.btn{
+    background-color: #fff;
+    color: #070707 !important;
+    border: #fff solid 1px;
+}
+.btn:hover{
+    background-color: rgb(235, 235, 235) !important;
+    color: #070707;
+    border: #fff solid 1px;
+}

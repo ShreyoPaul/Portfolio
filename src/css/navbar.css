@@ -1,0 +1,21 @@
+.nav{
+    transition: all 5s !important;
+}
+.nav:hover {
+    transition: 1s;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 40%, rgba(96, 98, 102, 0.399) 100%);
+}
+.navb{
+    font-size: 20px;
+    text-decoration:none;
+    color:#606266 !important;
+}
+.navb:hover{
+    color:#a6a6b1 !important;
+    font-weight: 500;
+}
+.navb:active,.navb:focus{
+    color:#ccccd9 !important;
+    font-weight: 600;
+}

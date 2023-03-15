@@ -1,0 +1,66 @@
+.form__input:hover {
+    border-color: #474747;
+}
+
+.form__input:focus {
+    border-color: #fff;
+}
+
+.form__input {
+    width: 450px;
+    height: 100%;
+    border: #606266 1px solid;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+    object-fit: cover;
+}
+
+.form {
+    position: relative;
+    width: 20rem;
+    height: 3rem;
+}
+
+.form__label {
+    position: absolute;
+    left: 4rem;
+    top: 0.8rem;
+    padding: 0 0.5rem;
+    color: white;
+    cursor: text;
+    transition: top 0.1s ease-in, font-size 0.1s ease-in;
+    background-color: #070707;
+}
+
+/* 
+  1. When the input is in the focus state
+  reduce the size of the label and move upwards 
+  
+  2. Keep label state when content is in input field 
+  */
+
+.form__input:focus~.form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus)~.form__label {
+    top: -0.5rem;
+    font-size: 0.75rem;
+    left: 4rem;
+}
+
+textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sbmt{
+    position: relative;
+    bottom: -13%;
+    left: 18%;
+}
+.totalform{
+    margin-bottom: 5%;
+}
+
